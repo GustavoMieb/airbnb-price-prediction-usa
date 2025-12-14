@@ -4,6 +4,9 @@ End-to-end regression project to predict Airbnb listing prices in the USA using
 structured listing features (location, room type, availability, reviews) and text
 features from listing titles (`name`) via TF-IDF.
 
+This project applies supervised machine learning techniques for price prediction,
+including regularized linear models and tree-based ensembles.
+
 Because listing prices are strongly right-skewed, the target is modeled as
 `log(price)` for training stability and later evaluated back in USD.
 
